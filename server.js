@@ -14,7 +14,7 @@ app.use(express.json());
 
 const cors = require('cors');
 const corsOptions ={
-    origin:['http://localhost:3000','https://pedagogium.onrender.com',"dev-zbydz5ck.us.auth0.com", 'http://localhost:3001'], 
+    origin:['https://pedagogium.onrender.com'], 
     credentials:true,
     accessControlAllowCredentials:true,
     optionSuccessStatus:200,
