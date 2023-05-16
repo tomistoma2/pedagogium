@@ -2,6 +2,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require("mongoose");
+const path = require('path');
 
 
 mongoose.connect("mongodb+srv://tomistoma:Podophyllotoxin1@tomo.brslpu3.mongodb.net/?retryWrites=true&w=majority");
