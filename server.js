@@ -14,6 +14,7 @@ app.use(express.json());
 
 const cors = require('cors');
 const corsOptions ={
+    headers: ["Content-Type"],
     origin:['https://pedagogium.onrender.com'], 
     credentials:true,
     accessControlAllowCredentials:true,
@@ -22,6 +23,7 @@ const corsOptions ={
 }
 
 app.use(cors(corsOptions));
+app.options('*', cors())
 const posts = require('./routes/posts');
 app.use('/posts/', posts);
 const teachers = require('./routes/teachers');
