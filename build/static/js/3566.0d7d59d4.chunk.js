@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[3566],{3566:function(e,n,a){e.exports=a.p+"static/media/zelva-zelenava.061977e0d002503eda6b.jpg"}}]);

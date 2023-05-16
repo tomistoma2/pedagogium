@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[5668],{5668:function(e,a,n){e.exports=n.p+"static/media/female-avatar-girl-face-woman-user-9.de24aecd1644190c42f2.svg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[1163],{1163:function(e,n,t){e.exports=t.p+"static/media/Prebaly.57412516879f8c47db1d.png"}}]);

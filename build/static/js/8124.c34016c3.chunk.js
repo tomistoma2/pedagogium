@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[8124],{8124:function(e,n,t){e.exports=t.p+"static/media/IMG_20171023_165716.251b8a7d75b91bd18cae.jpg"}}]);
