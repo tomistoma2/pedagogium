@@ -15,7 +15,10 @@
     "react-router-dom": "^6.4.5",
     "sort-by": "^0.0.2"
   },
-  "engines": {"node": "16.13.2","npm": "7.6.2"},
+  "engines": {
+    "node": "16.13.2",
+    "npm": "7.6.2"
+  },
   "name": "pedagogium",
   "version": "1.0.0",
   "main": "server.js",
@@ -23,8 +26,10 @@
     "type": "git",
     "url": "git+https://github.com/Tomistoma2/pedagogium.git"
   },
-  "scripts": {"start": "node server.js",
-  "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"},
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3",
     "object-assign": "^4.1.1"
